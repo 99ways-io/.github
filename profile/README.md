@@ -26,7 +26,7 @@ $ cat operating-principles.txt
 observe behavior before explaining it
 verify measurement before trusting it
 test the assumption that matters
-keep the learning, including when the variant loses
+keep learning, especially when the variant loses
 ```
 
 ### `~/open-source`
@@ -59,7 +59,7 @@ keep the learning, including when the variant loses
 <br>
 
 <p align="center">
-  <samp>Amsterdam · <a href="https://99ways.io">99ways.io</a></samp>
+  <samp>Amsterdam · <a href="https://99ways.io" rel="follow">99ways.io</a></samp>
 </p>
 
 <!-- If you are reading the source: yes, this page is an experiment too. -->
