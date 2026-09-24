@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">99Ways experiment loop</title>
+  <desc id="desc">A lab-console style diagram showing uncertainty moving through research, measurement, experimentation, and learning toward a better decision.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#292B2A" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6.4" refY="3.5" orient="auto">
+      <path d="M0 0L7 3.5L0 7Z" fill="#676B65"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="#F4F3EF"/>
+  <rect width="1200" height="420" rx="24" fill="url(#grid)"/>
+  <circle cx="58" cy="54" r="6" fill="#147D40"/>
+  <circle cx="80" cy="54" r="6" fill="#3558B8"/>
+  <circle cx="102" cy="54" r="6" fill="#292B2A" fill-opacity=".18"/>
+  <text x="132" y="59" fill="#676B65" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="1.4">99WAYS / EXPERIMENT LOOP</text>
+
+  <text x="56" y="133" fill="#292B2A" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700" letter-spacing="-1">Turn uncertainty into a better decision.</text>
+  <text x="56" y="171" fill="#676B65" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">input: assumptions we do not trust yet</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <rect x="56" y="220" width="190" height="58" rx="12" fill="#292B2A" fill-opacity=".035" stroke="#292B2A" stroke-opacity=".13"/>
+    <text x="151" y="255" text-anchor="middle" fill="#292B2A">research</text>
+
+    <path d="M258 249H306" stroke="#676B65" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="318" y="220" width="190" height="58" rx="12" fill="#3558B8" fill-opacity=".065" stroke="#3558B8" stroke-opacity=".28"/>
+    <text x="413" y="255" text-anchor="middle" fill="#3558B8">measurement</text>
+
+    <path d="M520 249H568" stroke="#676B65" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="580" y="220" width="190" height="58" rx="12" fill="#147D40" fill-opacity=".065" stroke="#147D40" stroke-opacity=".28"/>
+    <text x="675" y="255" text-anchor="middle" fill="#147D40">experiment</text>
+
+    <path d="M782 249H830" stroke="#676B65" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="842" y="220" width="190" height="58" rx="12" fill="#292B2A" fill-opacity=".035" stroke="#292B2A" stroke-opacity=".13"/>
+    <text x="937" y="255" text-anchor="middle" fill="#292B2A">learning</text>
+
+    <path d="M1044 249H1092" stroke="#676B65" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <circle cx="1118" cy="249" r="19" fill="#147D40"/>
+    <text x="1118" y="255" text-anchor="middle" fill="#F4F3EF" font-size="20">↺</text>
+  </g>
+
+  <rect x="56" y="318" width="1088" height="54" rx="12" fill="#292B2A" fill-opacity=".035"/>
+  <text x="78" y="351" fill="#676B65" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">&gt; output:</text>
+  <text x="170" y="351" fill="#292B2A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">evidence strong enough to change what we do next</text>
+</svg>
