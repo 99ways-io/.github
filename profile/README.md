@@ -1,25 +1,65 @@
-# 99Ways
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/99ways-io/.github/main/profile/assets/99ways-wordmark-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/99ways-io/.github/main/profile/assets/99ways-wordmark-light.svg">
+    <img alt="99Ways" src="https://raw.githubusercontent.com/99ways-io/.github/main/profile/assets/99ways-wordmark-light.svg" width="280">
+  </picture>
 
-**Find and pull your biggest growth levers with experimentation.**
+  <br><br>
 
-99Ways is a research-led experimentation and conversion optimization practice. We combine behavioral research, reliable measurement, product thinking, and engineering to find the few variables that materially affect performance—then test them before the business commits.
+  <samp>experimentation · behavior · measurement · engineering</samp>
+</div>
 
-## Open source from the work
+<br>
 
-The tools here exist because we needed them in real experimentation and analytics work. We publish the ones that can be useful beyond a single project.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/99ways-io/.github/main/profile/assets/experiment-loop-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/99ways-io/.github/main/profile/assets/experiment-loop-light.svg">
+  <img alt="99Ways experiment loop: research, measurement, experiment, learning, repeat" src="https://raw.githubusercontent.com/99ways-io/.github/main/profile/assets/experiment-loop-light.svg">
+</picture>
 
-- **[PostHog Page Experiments](https://github.com/99ways-io/posthog-page-experiments)** — Code-first page experiments for PostHog, with eligibility checks, URL QA overrides, and safe fallbacks.
-- **[99hog](https://github.com/99ways-io/99hog)** — WooCommerce ecommerce event tracking for PostHog.
-- **[PostHog Snippets](https://github.com/99ways-io/PostHog-snippets)** — Practical PostHog integration and experimentation snippets for common web platforms.
+<br>
 
-## How we work
+```text
+$ cat operating-principles.txt
 
-Research gives us better questions. Measurement tells us what is actually happening. Experiments let us change one important assumption and observe the consequence. Implementation turns useful answers into the product.
+observe behavior before explaining it
+verify measurement before trusting it
+test the assumption that matters
+keep the learning, including when the variant loses
+```
 
-We treat those as one learning loop rather than separate services. The point is not to run tests for the sake of running tests. It is to make consequential decisions with less guesswork.
+### `~/open-source`
 
-## Have something worth investigating?
+<table>
+  <tr>
+    <td width="34%" valign="top">
+      <samp>ACTIVE / OSS</samp>
+      <br><br>
+      <strong><a href="https://github.com/99ways-io/posthog-page-experiments">posthog-page-experiments</a></strong>
+    </td>
+    <td valign="top">
+      Code-first page experiments for PostHog. Handles eligibility before exposure, variant application, URL QA overrides, and safe fallbacks while PostHog keeps assignment and analysis.
+      <br><br>
+      <samp>TypeScript · MIT · browser-side experimentation</samp>
+    </td>
+  </tr>
+</table>
 
-Bring us the funnel, the evidence, and the uncertainty.
+<details>
+  <summary><code>$ ./why-this-exists</code></summary>
+  <br>
+  Most businesses can produce a long list of things that might improve. The harder problem is finding which few variables actually matter.
 
-[See how we work](https://99ways.io/about/) · [Case studies](https://99ways.io/case-studies/) · **[Talk to us](https://99ways.io/contact/)**
+  We use research to get better questions, measurement to establish what is happening, experiments to change one important assumption at a time, and engineering to make the answer real.
+
+  The point is not more tests. The point is less guesswork.
+</details>
+
+<br>
+
+<p align="center">
+  <samp>Amsterdam · <a href="https://99ways.io">99ways.io</a></samp>
+</p>
+
+<!-- If you are reading the source: yes, this page is an experiment too. -->
